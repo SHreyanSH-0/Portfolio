@@ -1,0 +1,53 @@
+{
+  "institution": {
+    "name": "National Institute of Technology Kurukshetra",
+    "shortName": "NIT Kurukshetra",
+    "location": "Kurukshetra, Haryana, India",
+    "type": "Institute of National Importance"
+  },
+  "degree": {
+    "program": "Bachelor of Technology",
+    "branch": "Computer Science Engineering",
+    "startYear": 2024,
+    "graduationYear": 2028,
+    "status": "Currently Pursuing"
+  },
+  "academicPerformance": {
+    "cgpa": 9.18,
+    "gradingScale": "10"
+  },
+  "entranceExaminations": {
+    "jeeMain": {
+      "percentile": 99.5140478,
+      "year": 2024
+    },
+    "jeeAdvanced": {
+      "air": 8585,
+      "year": 2024,
+      "qualified": true
+    }
+  },
+  "coursework": [
+    "Data Structures and Algorithms",
+    "Object Oriented Programming",
+    "Database Management Systems",
+    "Operating Systems",
+    "Computer Networks",
+    "Software Engineering",
+    "Design and Analysis of Algorithms",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Probability and Statistics",
+    "Linear Algebra",
+    "Discrete Mathematics"
+  ],
+  "technicalFocus": [
+    "Backend Development",
+    "Distributed Systems",
+    "Competitive Programming",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "System Design"
+  ],
+  "summary": "Shreyansh Tiwari is currently pursuing a Bachelor of Technology in Computer Science Engineering at the National Institute of Technology Kurukshetra. He maintains a CGPA of 9.18, secured 99.5 percentile in JEE Main, qualified JEE Advanced with an All India Rank of 8585, and actively focuses on backend development, competitive programming, and artificial intelligence."
+}

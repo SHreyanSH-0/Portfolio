@@ -1,0 +1,68 @@
+{
+  "competitiveProgramming": {
+    "leetcode": {
+      "platform": "LeetCode",
+      "rating": 1999,
+      "problemsSolved": 950,
+      "highestContestRank": 252,
+      "level": "Knight",
+      "description": "Regularly participates in LeetCode contests and solves algorithmic problems covering data structures, algorithms, dynamic programming, graphs, trees, and system design fundamentals."
+    },
+    "codeforces": {
+      "platform": "Codeforces",
+      "rating": 1470,
+      "level": "Specialist",
+      "description": "Actively participates in Codeforces contests and continuously improves problem-solving skills."
+    },
+    "codechef": {
+      "platform": "CodeChef",
+      "stars": 3,
+      "description": "3-Star rated competitive programmer on CodeChef."
+    },
+    "geeksforgeeks": {
+      "platform": "GeeksforGeeks",
+      "description": "Uses GeeksforGeeks for practicing data structures, algorithms, and interview preparation."
+    }
+  },
+  "academicAchievements": {
+    "jeeMain": {
+      "percentile": 99.5,
+      "description": "Secured 99.5 percentile in JEE Main."
+    },
+    "jeeAdvanced": {
+      "rank": 8585,
+      "description": "Qualified JEE Advanced with an All India Rank of 8585."
+    },
+    "college": {
+      "cgpa": 9.18,
+      "description": "Maintaining a strong academic record at NIT Kurukshetra."
+    }
+  },
+  "technicalAchievements": [
+    {
+      "title": "Backend Development",
+      "description": "Built scalable backend applications using Node.js, Express.js, MongoDB, Redis, BullMQ, and JWT authentication."
+    },
+    {
+      "title": "Artificial Intelligence",
+      "description": "Developed machine learning projects using Python, OpenCV, NumPy, Pandas, and Scikit-learn."
+    },
+    {
+      "title": "Full Stack Development",
+      "description": "Built full-stack applications using React, Express, MongoDB, and modern web technologies."
+    }
+  ],
+  "hackathons": [
+    {
+      "name": "Smart India Hackathon",
+      "description": "Participated in Smart India Hackathon and developed innovative software solutions in a team environment."
+    }
+  ],
+  "leadership": [
+    {
+      "organization": "Technobyte",
+      "role": "Member"
+    }
+  ],
+  "summary": "Competitive programmer with strong performance across LeetCode, Codeforces, and CodeChef. Qualified JEE Advanced, secured 99.5 percentile in JEE Main, and maintains an excellent academic record while building scalable backend systems and AI-powered applications."
+}

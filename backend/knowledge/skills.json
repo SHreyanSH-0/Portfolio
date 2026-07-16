@@ -1,0 +1,172 @@
+{
+  "programmingLanguages": [
+    {
+      "name": "C++",
+      "level": "Advanced",
+      "description": "Primary language for competitive programming, data structures, and algorithms."
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "description": "Primary language for full-stack and backend web development."
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "description": "Used for machine learning, AI, scripting, and automation."
+    },
+    {
+      "name": "SQL",
+      "level": "Advanced",
+      "description": "Experienced in writing queries, joins, aggregations, and relational database design."
+    }
+  ],
+  "frontend": [
+    {
+      "name": "React.js",
+      "level": "Advanced"
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Advanced"
+    },
+    {
+      "name": "HTML5",
+      "level": "Advanced"
+    },
+    {
+      "name": "CSS3",
+      "level": "Advanced"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Node.js",
+      "level": "Advanced"
+    },
+    {
+      "name": "Express.js",
+      "level": "Advanced"
+    },
+    {
+      "name": "REST APIs",
+      "level": "Advanced"
+    },
+    {
+      "name": "Socket.IO",
+      "level": "Advanced"
+    },
+    {
+      "name": "JWT Authentication",
+      "level": "Advanced"
+    }
+  ],
+  "databases": [
+    {
+      "name": "MongoDB",
+      "level": "Advanced"
+    },
+    {
+      "name": "Redis",
+      "level": "Advanced"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "level": "Advanced"
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced"
+    },
+    {
+      "name": "Docker",
+      "level": "Learning"
+    },
+    {
+      "name": "BullMQ",
+      "level": "Advanced"
+    },
+    {
+      "name": "Postman",
+      "level": "Advanced"
+    },
+    {
+      "name": "VS Code",
+      "level": "Advanced"
+    }
+  ],
+  "artificialIntelligence": [
+    {
+      "name": "Machine Learning",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Scikit-learn",
+      "level": "Intermediate"
+    },
+    {
+      "name": "NumPy",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Pandas",
+      "level": "Intermediate"
+    },
+    {
+      "name": "OpenCV",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Gemini API",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Retrieval-Augmented Generation (RAG)",
+      "level": "Learning"
+    }
+  ],
+  "computerScience": [
+    "Data Structures",
+    "Algorithms",
+    "Object-Oriented Programming",
+    "Operating Systems",
+    "Database Management Systems",
+    "Computer Networks",
+    "Software Engineering",
+    "System Design",
+    "Distributed Systems",
+    "Probability",
+    "Linear Algebra"
+  ],
+  "competitiveProgramming": {
+    "primaryLanguage": "C++",
+    "topics": [
+      "Dynamic Programming",
+      "Graphs",
+      "Trees",
+      "Binary Search",
+      "Greedy Algorithms",
+      "Sliding Window",
+      "Segment Tree",
+      "Fenwick Tree",
+      "Disjoint Set Union",
+      "Trie",
+      "Number Theory",
+      "Bit Manipulation",
+      "Recursion",
+      "Backtracking"
+    ]
+  },
+  "currentlyLearning": [
+    "Distributed Systems",
+    "Advanced System Design",
+    "Large Language Models",
+    "Cloud Computing",
+    "Microservices",
+    "Docker",
+    "Kubernetes"
+  ],
+  "summary": "Shreyansh Tiwari is primarily a backend developer with strong expertise in Node.js, Express.js, MongoDB, Redis, React, JavaScript, and C++. He has practical experience building scalable backend systems, REST APIs, real-time applications using Socket.IO, and AI-powered applications using Python and machine learning libraries. He has a strong foundation in computer science fundamentals, competitive programming, and system design."
+}

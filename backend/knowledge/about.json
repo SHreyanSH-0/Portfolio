@@ -1,0 +1,72 @@
+{
+  "name": "Shreyansh Tiwari",
+  "role": "Backend Developer",
+  "headline": "Backend Developer • Competitive Programmer • AI Enthusiast",
+  "bio": "I am Shreyansh Tiwari, a Computer Science Engineering undergraduate at the National Institute of Technology Kurukshetra. I am passionate about backend development, distributed systems, competitive programming, and artificial intelligence. I enjoy building scalable applications, designing efficient systems, and solving challenging algorithmic problems. My goal is to create software that is reliable, high-performance, and impactful while continuously learning modern technologies and best engineering practices.",
+  "location": "Kurukshetra, Haryana, India",
+  "education": {
+    "college": "National Institute of Technology Kurukshetra",
+    "degree": "Bachelor of Technology",
+    "branch": "Computer Science Engineering",
+    "graduationYear": 2028
+  },
+  "careerObjective": "To build scalable and efficient software systems while working on challenging engineering problems. I aspire to contribute to high-impact products, learn from experienced engineers, and continuously improve my technical and problem-solving abilities.",
+  "interests": [
+    "Backend Development",
+    "System Design",
+    "Distributed Systems",
+    "Competitive Programming",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Scalable Web Applications",
+    "Open Source"
+  ],
+  "strengths": [
+    "Data Structures and Algorithms",
+    "Problem Solving",
+    "Backend Development",
+    "Full Stack Development",
+    "System Design",
+    "Analytical Thinking",
+    "Continuous Learning",
+    "Team Collaboration"
+  ],
+  "workingStyle": [
+    "Write clean and maintainable code",
+    "Focus on scalability and performance",
+    "Build production-ready software",
+    "Learn by building real-world projects",
+    "Continuously optimize and improve solutions"
+  ],
+  "currentlyLearning": [
+    "Distributed Systems",
+    "Advanced System Design",
+    "Retrieval-Augmented Generation (RAG)",
+    "Large Language Models",
+    "Cloud Computing",
+    "Docker",
+    "Redis",
+    "Microservices"
+  ],
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "hobbies": [
+    "Competitive Programming",
+    "Building Personal Projects",
+    "Learning New Technologies",
+    "Reading Technical Blogs",
+    "Exploring AI Tools"
+  ],
+  "availability": {
+    "internships": true,
+    "fullTime": true,
+    "openToCollaborate": true
+  },
+  "contact": {
+    "email": "tiwarishreyansh013@gmail.com",
+    "github": "https://github.com/SHreyanSH-0",
+    "linkedin": "https://www.linkedin.com/in/shreyansh-tiwari-501165312/"
+  }
+}

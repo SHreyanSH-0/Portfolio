@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Tell me about yourself.",
+    "answer": "I'm Shreyansh Tiwari, a Computer Science Engineering undergraduate at the National Institute of Technology Kurukshetra. I enjoy building scalable backend systems, AI-powered applications, and solving algorithmic problems through competitive programming. My primary interests are backend development, distributed systems, system design, and artificial intelligence."
+  },
+  {
+    "question": "What are your strengths?",
+    "answer": "My strengths include strong problem-solving skills, a solid foundation in data structures and algorithms, backend development with Node.js and Express, designing scalable systems, and the ability to quickly learn and adapt to new technologies."
+  },
+  {
+    "question": "What technologies are you most comfortable with?",
+    "answer": "I primarily work with C++, JavaScript, Node.js, Express.js, React, MongoDB, Redis, BullMQ, Socket.IO, Tailwind CSS, Python, and Git. I also have experience with machine learning using Scikit-learn, NumPy, Pandas, and OpenCV."
+  },
+  {
+    "question": "Which project are you most proud of?",
+    "answer": "One of the projects I'm most proud of is my scalable URL Shortener. It uses Redis for caching, BullMQ for background job processing, MongoDB for persistence, and Express.js for the backend. It was designed with scalability, performance, and maintainability in mind."
+  },
+  {
+    "question": "Why are you interested in backend development?",
+    "answer": "I enjoy solving engineering problems related to scalability, performance, databases, APIs, distributed systems, and system architecture. Backend development allows me to build reliable software that powers real-world applications."
+  },
+  {
+    "question": "Why do you enjoy competitive programming?",
+    "answer": "Competitive programming has significantly improved my problem-solving abilities and strengthened my understanding of algorithms and data structures. It has also helped me develop the habit of writing efficient and optimized solutions under time constraints."
+  },
+  {
+    "question": "Why should we hire you?",
+    "answer": "I bring a strong foundation in computer science fundamentals, hands-on experience building real-world backend applications, and a passion for continuous learning. I enjoy taking ownership of challenging problems and building efficient, scalable solutions while collaborating effectively within a team."
+  },
+  {
+    "question": "What are you currently learning?",
+    "answer": "I'm currently exploring distributed systems, advanced backend engineering, Retrieval-Augmented Generation (RAG), Large Language Models, cloud technologies, Docker, Redis, and modern system design concepts."
+  },
+  {
+    "question": "What type of opportunities are you looking for?",
+    "answer": "I'm looking for software engineering internships where I can contribute to real-world products, learn from experienced engineers, and continue improving my backend development and system design skills."
+  },
+  {
+    "question": "What programming language do you use the most?",
+    "answer": "C++ is my primary language for competitive programming and algorithms, while JavaScript is my primary language for backend and full-stack development."
+  },
+  {
+    "question": "How do you approach learning new technologies?",
+    "answer": "I prefer learning by building projects. I first understand the fundamentals, then create practical applications to gain hands-on experience, and finally optimize and improve my implementations by studying best practices."
+  },
+  {
+    "question": "What motivates you as a developer?",
+    "answer": "I enjoy solving challenging technical problems and building software that has a real impact. I'm motivated by continuous learning, improving my engineering skills, and working on systems that require scalability, efficiency, and thoughtful design."
+  },
+  {
+    "question": "Describe your development workflow.",
+    "answer": "I typically begin by understanding the problem, designing the system architecture, implementing the core functionality, testing thoroughly, optimizing performance, and using Git for version control throughout development."
+  },
+  {
+    "question": "What kind of team do you enjoy working with?",
+    "answer": "I enjoy working with collaborative teams that value technical discussions, clean engineering practices, knowledge sharing, and continuous learning. I appreciate environments where everyone contributes ideas and works together to solve challenging problems."
+  },
+  {
+    "question": "What are your long-term career goals?",
+    "answer": "My long-term goal is to become a highly skilled software engineer specializing in backend systems and distributed architectures while continuously learning emerging technologies in AI and large-scale system design."
+  }
+]

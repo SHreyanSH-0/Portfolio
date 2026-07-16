@@ -1,0 +1,76 @@
+{
+  "profiles": {
+    "leetcode": {
+      "username": "tiwarishreyansh013",
+      "profile": "https://leetcode.com/u/tiwarishreyansh013/"
+    },
+    "codeforces": {
+      "username": "tiwarishreyansh013",
+      "profile": "https://codeforces.com/profile/tiwarishreyansh013"
+    },
+    "codechef": {
+      "username": "tiwari013",
+      "profile": "https://www.codechef.com/users/tiwari013"
+    },
+    "geeksforgeeks": {
+      "username": "tiwarishre0yqv",
+      "profile": "https://auth.geeksforgeeks.org/user/tiwarishre0yqv"
+    }
+  },
+  "currentStats": {
+    "leetcode": {
+      "rating": 1970,
+      "highestRating": 1999,
+      "problemsSolved": 960,
+      "contestRank": 252
+    },
+    "codeforces": {
+      "rating": 1470,
+      "highestRating": 1470,
+      "title": "Specialist"
+    },
+    "codechef": {
+      "stars": 3
+    }
+  },
+  "problemSolving": {
+    "primaryLanguage": "C++",
+    "focusAreas": [
+      "Arrays",
+      "Strings",
+      "Binary Search",
+      "Sorting",
+      "Greedy Algorithms",
+      "Dynamic Programming",
+      "Graphs",
+      "Trees",
+      "Binary Trees",
+      "Binary Search Trees",
+      "Trie",
+      "Segment Tree",
+      "Fenwick Tree",
+      "Disjoint Set Union",
+      "Recursion",
+      "Backtracking",
+      "Bit Manipulation",
+      "Number Theory",
+      "Combinatorics",
+      "Sliding Window",
+      "Two Pointers"
+    ]
+  },
+  "contestExperience": {
+    "regularPlatforms": [
+      "LeetCode",
+      "Codeforces",
+      "CodeChef"
+    ],
+    "description": "Regularly participates in online programming contests and continuously improves algorithmic problem-solving skills."
+  },
+  "goals": [
+    "Become Candidate Master on Codeforces",
+    "Solve more than 3000 algorithmic and competitive programming problems",
+    "Strengthen advanced algorithms and system design skills"
+  ],
+  "summary": "Competitive programmer with strong foundations in data structures and algorithms. Regularly participates in coding contests and enjoys solving challenging algorithmic problems using C++."
+}

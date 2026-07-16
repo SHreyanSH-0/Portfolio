@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website with AI Assistant",
+    "category": "Full Stack",
+    "status": "In Progress",
+    "description": "A modern personal portfolio website featuring an AI assistant capable of answering questions about my resume, projects, skills, education, and achievements using Retrieval-Augmented Generation (RAG).",
+    "longDescription": "Designed and developed a professional portfolio website using React for the frontend and Node.js for the backend. The portfolio integrates a custom Retrieval-Augmented Generation (RAG) pipeline powered by Gemini API, allowing visitors to ask questions about my experience, projects, skills, education, and competitive programming. The assistant retrieves relevant information from a knowledge base before generating accurate responses.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "Gemini API",
+      "JavaScript",
+      "RAG",
+      "Vector Embeddings"
+    ],
+    "features": [
+      "AI Portfolio Assistant",
+      "Resume Question Answering",
+      "Knowledge Base Retrieval",
+      "Semantic Search",
+      "Download Resume",
+      "Responsive Design",
+      "Project Showcase",
+      "Competitive Programming Section"
+    ],
+    "concepts": [
+      "Retrieval-Augmented Generation",
+      "Embeddings",
+      "Cosine Similarity",
+      "Prompt Engineering",
+      "REST APIs"
+    ],
+    "challenges": [
+      "Building a generic knowledge indexing pipeline",
+      "Improving retrieval accuracy",
+      "Designing an extensible RAG architecture",
+      "Organizing structured knowledge for AI"
+    ],
+    "learnings": [
+      "Large Language Models",
+      "RAG Architecture",
+      "Gemini API",
+      "Prompt Engineering"
+    ],
+    "github": "",
+    "live": "",
+    "source": "portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Scalable URL Shortener",
+    "category": "Backend",
+    "status": "Completed",
+    "description": "A scalable URL shortening service featuring Redis caching, analytics, BullMQ workers, and MongoDB for persistent storage.",
+    "longDescription": "Built a production-ready URL shortening service capable of generating unique short URLs, efficiently redirecting users, caching frequently accessed URLs with Redis, and processing click analytics asynchronously using BullMQ workers.",
+    "techStack": [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "REST API"
+    ],
+    "features": [
+      "Unique URL generation",
+      "Redis caching",
+      "Click analytics",
+      "Background workers",
+      "Duplicate URL detection",
+      "RESTful API",
+      "MongoDB persistence"
+    ],
+    "concepts": [
+      "Caching",
+      "Background Jobs",
+      "Queue Processing",
+      "REST APIs",
+      "Backend Scalability"
+    ],
+    "challenges": [
+      "Keeping Redis and MongoDB synchronized",
+      "Designing asynchronous analytics processing",
+      "Handling concurrent traffic"
+    ],
+    "learnings": [
+      "Redis",
+      "BullMQ",
+      "Backend Architecture",
+      "Scalable System Design"
+    ],
+    "github": "https://github.com/SHreyanSH-0/UrlShortener",
+    "live": "https://url-shortener-livid-three.vercel.app/",
+    "source": "portfolio"
+  },
+  {
+    "id": 3,
+    "title": "Multiplayer Chess",
+    "category": "Full Stack",
+    "status": "In Progress",
+    "description": "A real-time multiplayer room-based chess application with matchmaking, authentication, Socket.IO communication, and synchronized gameplay.",
+    "longDescription": "Developed a multiplayer chess platform supporting real-time gameplay using Socket.IO. Features include authentication, matchmaking, synchronized game state, persistent sessions, and responsive user experience.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "Socket.IO",
+      "MongoDB",
+      "JWT"
+    ],
+    "features": [
+      "Real-time gameplay",
+      "Authentication",
+      "Matchmaking",
+      "Persistent game sessions",
+      "Responsive UI"
+    ],
+    "concepts": [
+      "WebSockets",
+      "Real-time Communication",
+      "Authentication",
+      "State Synchronization"
+    ],
+    "challenges": [
+      "Synchronizing chess state",
+      "Handling disconnects",
+      "Maintaining low latency"
+    ],
+    "learnings": [
+      "Socket.IO",
+      "Real-time Systems",
+      "WebSocket Communication"
+    ],
+    "github": "https://github.com/SHreyanSH-0/chess",
+    "live": "https://chess-sandy-tau.vercel.app/",
+    "source": "portfolio"
+  },
+  {
+    "id": 4,
+    "title": "Spam Mail Classifier",
+    "category": "Machine Learning",
+    "status": "Completed",
+    "description": "Built an NLP-based spam classifier using TF-IDF vectorization and scikit-learn with 92.46% precision.",
+    "longDescription": "Developed a machine learning application for spam email classification using Natural Language Processing techniques including text preprocessing, TF-IDF vectorization, and Naive Bayes classification.",
+    "techStack": [
+      "Python",
+      "Scikit-learn",
+      "NumPy",
+      "Pandas",
+      "Streamlit",
+      "Firebase"
+    ],
+    "features": [
+      "Spam detection",
+      "Text preprocessing",
+      "TF-IDF vectorization",
+      "Interactive web interface"
+    ],
+    "concepts": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Text Classification"
+    ],
+    "challenges": [
+      "Feature engineering",
+      "Improving precision",
+      "Cleaning noisy text"
+    ],
+    "learnings": [
+      "NLP",
+      "Scikit-learn",
+      "TF-IDF",
+      "Classification Models"
+    ],
+    "github": "https://github.com/SHreyanSH-0/Spam_SMS_Detector",
+    "live": "https://spam-sms-detector-124102054.streamlit.app/",
+    "source": "portfolio"
+  },
+  {
+    "id": 5,
+    "title": "Event Portal",
+    "category": "Full Stack",
+    "status": "Completed",
+    "description": "A full-stack event management platform supporting event creation, registrations, eligibility filtering, and role-based access control.",
+    "longDescription": "Built a comprehensive event management platform allowing organizers to create events and students to register based on eligibility criteria. Includes authentication, role-based authorization, and responsive dashboards.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT"
+    ],
+    "features": [
+      "Event management",
+      "Role-based authentication",
+      "Student registration",
+      "Eligibility filtering",
+      "Organizer dashboard"
+    ],
+    "concepts": [
+      "Authentication",
+      "Authorization",
+      "REST APIs",
+      "Role-based Access Control"
+    ],
+    "challenges": [
+      "Managing multiple user roles",
+      "Eligibility filtering",
+      "Secure authentication"
+    ],
+    "learnings": [
+      "JWT",
+      "Full Stack Development",
+      "MongoDB"
+    ],
+    "github": "https://github.com/SHreyanSH-0/EventPortal",
+    "live": "https://event-portal-delta.vercel.app/",
+    "source": "portfolio"
+  },
+  {
+    "id": 6,
+    "title": "Placement Portal",
+    "category": "Full Stack",
+    "status": "Completed",
+    "description": "A complete placement management platform with recruiter and student dashboards, eligibility filtering, analytics, and resume management.",
+    "longDescription": "Designed and developed a complete campus placement platform supporting recruiters, students, and administrators. Features include eligibility filtering, authentication, resume management, analytics, and placement workflow automation.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT"
+    ],
+    "features": [
+      "Recruiter dashboard",
+      "Student dashboard",
+      "Resume management",
+      "Eligibility filtering",
+      "Placement analytics"
+    ],
+    "concepts": [
+      "Authentication",
+      "Authorization",
+      "REST APIs",
+      "Role-based Access"
+    ],
+    "challenges": [
+      "Managing recruiter and student workflows",
+      "Building scalable APIs",
+      "Implementing secure authentication"
+    ],
+    "learnings": [
+      "Backend Development",
+      "React",
+      "MongoDB",
+      "Express"
+    ],
+    "github": "https://github.com/SHreyanSH-0/PlacementPortal",
+    "live": "https://placement-portal-indol.vercel.app/",
+    "source": "portfolio"
+  },
+  {
+    "id": 7,
+    "title": "Rock Paper Scissors",
+    "category": "Frontend",
+    "status": "Completed",
+    "description": "A browser-based Rock Paper Scissors game built using HTML, CSS, and JavaScript.",
+    "longDescription": "A simple web-based game implementing the classic Rock Paper Scissors logic with an interactive user interface, score tracking, and responsive design.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "features": [
+      "Interactive gameplay",
+      "Score tracking",
+      "Responsive design"
+    ],
+    "concepts": [
+      "DOM Manipulation",
+      "JavaScript Events",
+      "Game Logic"
+    ],
+    "challenges": [
+      "Implementing game logic",
+      "Improving UI responsiveness"
+    ],
+    "learnings": [
+      "JavaScript",
+      "DOM APIs",
+      "Frontend Development"
+    ],
+    "github": "https://github.com/SHreyanSH-0/RockPaperScissors",
+    "live": "https://shreyansh-0.github.io/RockPaperScissors/Html/rockPaperScissors.html",
+    "source": "portfolio"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "internships": {
+    "status": "No professional internship experience yet.",
+    "details": "Currently seeking Software Engineering and Backend Development internship opportunities."
+  },
+  "projectsExperience": [
+    {
+      "title": "AI Placement Portal",
+      "role": "Full Stack Developer",
+      "description": "Designed and developed a complete placement management system with recruiter and student dashboards, authentication, eligibility filtering, resume management, and analytics.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT"
+      ]
+    },
+    {
+      "title": "Scalable URL Shortener",
+      "role": "Backend Developer",
+      "description": "Built a scalable URL shortening service with Redis caching, BullMQ background workers, analytics, MongoDB, and REST APIs.",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "BullMQ"
+      ]
+    },
+    {
+      "title": "Real-Time Multiplayer Chess",
+      "role": "Full Stack Developer",
+      "description": "Developed a multiplayer chess platform with real-time communication, authentication, matchmaking, and persistent game sessions.",
+      "technologies": [
+        "React",
+        "Socket.IO",
+        "Node.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Spam SMS Detection",
+      "role": "Machine Learning Developer",
+      "description": "Built a machine learning model for spam SMS classification using NLP techniques and classical ML algorithms.",
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "organization": "Technobyte",
+      "role": "Member",
+      "description": "Active member of the technical society, participating in technical events, coding activities, and collaborative learning."
+    },
+    {
+      "organization": "Street Under Construction (SUC)",
+      "role": "Member",
+      "description": "Participated in organizing and managing cultural and campus activities."
+    },
+    {
+      "organization": "MAD Club",
+      "role": "Member",
+      "description": "Contributed to event management, coordination, and creative initiatives."
+    }
+  ],
+  "hackathons": [
+    {
+      "name": "Smart India Hackathon",
+      "role": "Team Member",
+      "description": "Collaborated with teammates to develop an innovative software solution under time constraints while following an agile development approach."
+    }
+  ],
+  "technicalExperience": {
+    "backend": [
+      "REST API Development",
+      "Authentication using JWT",
+      "Redis Caching",
+      "BullMQ Background Workers",
+      "Socket.IO",
+      "MongoDB",
+      "Express.js"
+    ],
+    "frontend": [
+      "React",
+      "Tailwind CSS",
+      "Responsive UI Design"
+    ],
+    "artificialIntelligence": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Retrieval-Augmented Generation (RAG)",
+      "Gemini API Integration"
+    ]
+  },
+  "teamExperience": {
+    "workedInTeams": true,
+    "description": "Collaborated with teammates on hackathons, academic projects, and technical society activities using Git and GitHub for version control."
+  },
+  "summary": "Although currently a Computer Science undergraduate without professional internship experience, Shreyansh has built multiple full-stack and backend projects, actively participates in hackathons, contributes to technical communities, and has strong hands-on experience with scalable backend systems, competitive programming, and AI-powered applications."
+}
