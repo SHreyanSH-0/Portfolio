@@ -8,6 +8,25 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
   const projects = [
     {
+      title: "Portfolio Website with AI Assistant",
+      description:
+        "A modern personal portfolio website featuring an AI assistant capable of answering questions about my resume, projects, skills, education, and achievements using Retrieval-Augmented Generation (RAG).",
+      github: "https://github.com/SHreyanSH-0/Portfolio",
+      live: "https://portfolio-inky-mu-40.vercel.app/",
+
+      status: "Completed",
+
+      tech: [
+        "Node.js",
+        "React.js",
+        "Express.js",
+        "Rest APIs",
+        "Tailwind CSS",
+        "RAG",
+        "Gemini API",
+      ],
+    },
+    {
       title: "URL Shortener",
       description:
         "A scalable URL shortening service featuring Redis caching, analytics, BullMQ workers, and MongoDB for persistent storage.",

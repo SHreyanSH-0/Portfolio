@@ -16,8 +16,8 @@ async function chat(req, res) {
             });
         }
 
-        const chunks = await retrieve(question, 5);
-
+        const chunks = await retrieve(question, 10);
+        console.log(chunks);
         // const relevant = chunks.filter(
         //     c => c.similarity >= 0.65
         // );
