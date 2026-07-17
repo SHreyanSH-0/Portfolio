@@ -1,106 +1,47 @@
 require("dotenv").config();
 
-const { GoogleGenAI } = require("@google/genai");
+const OpenAI = require("openai");
 
-const ai = new GoogleGenAI({
-    apiKey: process.env.GEMINI_API_KEY,
-});
-const ai2 = new GoogleGenAI({
-    apiKey: process.env.GEMINI_API_KEY2,
-});
-const ai3 = new GoogleGenAI({
-    apiKey: process.env.GEMINI_API_KEY3,
+const client = new OpenAI({
+    apiKey: process.env.GROQ_API_KEY,
+    baseURL: "https://api.groq.com/openai/v1",
 });
 
-const MODEL = "gemini-3.5-flash";
+const MODEL = "llama-3.3-70b-versatile";
 
-async function generateContent(prompt, retries = 6) {
+async function generateContent(prompt, retries = 5) {
     let delay = 1000;
 
-    for (let attempt = 1; attempt <= retries/2; attempt++) {
+    for (let attempt = 1; attempt <= retries; attempt++) {
         try {
-            const response = await ai.models.generateContent({
+            const response = await client.chat.completions.create({
                 model: MODEL,
-                contents: prompt,
+                temperature: 0.2,
+                messages: [
+                    {
+                        role: "user",
+                        content: prompt,
+                    },
+                ],
             });
 
-            return response.text;
+            return response.choices[0].message.content;
         } catch (err) {
-            const status = err.status || 500;
-
-            // if (status !== 503 || attempt === retries) {
-            //     throw err;
-            // }
+            if (attempt === retries) {
+                throw err;
+            }
 
             console.log(
-                `Gemini busy. Retry ${attempt}/${retries} in ${delay}ms`
+                `Groq error. Retry ${attempt}/${retries} in ${delay}ms`
             );
 
-            // await new Promise((resolve) =>
-            //     setTimeout(resolve, delay)
-            // );
-
-            delay *= 2;
-        }
-    }
-    delay = 1000;
-    for (let attempt = 1; attempt <= retries/2; attempt++) {
-        try {
-            const response = await ai2.models.generateContent({
-                model: MODEL,
-                contents: prompt,
-            });
-
-            return response.text;
-        } catch (err) {
-            const status = err.status || 500;
-
-            // if (status !== 503 || attempt === retries) {
-            //     throw err;
-            // }
-
-            console.log(
-                `Gemini busy. Retry ${attempt}/${retries} in ${delay}ms`
-            );
-
-            // await new Promise((resolve) =>
-            //     setTimeout(resolve, delay)
-            // );
-
-            delay *= 2;
-        }
-    }
-    delay = 1000;
-    for (let attempt = 1; attempt <= retries/2; attempt++) {
-        try {
-            const response = await ai3.models.generateContent({
-                model: MODEL,
-                contents: prompt,
-            });
-
-            return response.text;
-        } catch (err) {
-            const status = err.status || 500;
-
-            // if (status !== 503 || attempt === retries) {
-            //     throw err;
-            // }
-
-            console.log(
-                `Gemini busy. Retry ${attempt}/${retries} in ${delay}ms`
-            );
-
-            // await new Promise((resolve) =>
-            //     setTimeout(resolve, delay)
-            // );
+            await new Promise((resolve) => setTimeout(resolve, delay));
 
             delay *= 2;
         }
     }
 
-    throw new Error(
-        "Gemini service is temporarily unavailable. Please try again later."
-    );
+    throw new Error("Groq service unavailable.");
 }
 
 module.exports = {
